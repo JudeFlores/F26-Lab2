@@ -18,6 +18,6 @@ else:
     name = sys.argv[1]
     age = sys.argv[2]
     if num_args == 2:
-        print(f"Hi {name}, good job, you have provided two arguments!")
+        print("Hello user, good job, you provided two arguments!")
     else:
-        print(f"Hi {name}, you are {age} years old and this script has received {num_args} arguments!")
+        print(f"This script requires exactly two arguments. You provided {num_args} arguments")
